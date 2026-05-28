@@ -8,30 +8,6 @@
 
 Das Heimnetzwerk besteht aus einem zentralen WLAN-Router im Wohnbereich, einem Switch im Reduit sowie einem zweiten WLAN-Router als Access Point in Zimmer 3. Die Internetverbindung läuft über einen Kupferkabelanschluss (ISP) direkt in den Hauptrouter. Das Festnetz ist über eine separate Telefonleitung angebunden.
 
-**Topologie auf einen Blick:**
-
-```
-Internet (Kupferkabel)
-        │
-   Hauptrouter  (Wohnbereich)
-   ├── LAN → Desktop-PC         (2m)
-   ├── LAN → IP TV              (~2m)
-   ├── LAN → Drucker            (10m)
-   ├── LAN → Switch  (Reduit)   (30m)
-   │         ├── LAN → Server/PC  Zimmer 1   (25m)
-   │         ├── LAN → Server/PC  Zimmer 3   (15m)
-   │         └── LAN → AP / Router 2  Zimmer 3   (15m)
-   │                   ├── WLAN → Laptop  Zimmer 3
-   │                   └── WLAN → Laptop  Zimmer 1
-   ├── WLAN → Laptop
-   ├── WLAN → 4× Smartphone
-   └── WLAN → IP TV (alternativ)
-
-Festnetz (Telefonleitung)
-        │
-   Telefon / Modem  (Wohnbereich)
-```
-
 ---
 
 ## 2. Geräteliste
